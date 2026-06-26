@@ -53,3 +53,15 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Project executables
+server
+client
+
+# Runtime data
+data/*.dat
+data/*.lock
+data/*.log
+
+# Named pipe
+/tmp/expense_notify.fifo
